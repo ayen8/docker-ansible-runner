@@ -10,3 +10,5 @@ make build-ansible
 copy docker-compose.yml
 
 docker compose up -d
+
+setup ansible-runner/runneer/.ssh/ files, i.e. id_rsa id_rsa.pub from host
